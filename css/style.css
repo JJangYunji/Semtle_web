@@ -153,6 +153,20 @@ html {
   margin-top: 0;
 }
 
+.header_mobile {
+  display: none;
+}
+
+.sm_login {
+  background-color: var(--blue);
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  color: var(--color-text);
+  font-size: 1.5rem;
+  font-weight: 600;
+  display: none;
+}
+
 #menu-btn {
   cursor: pointer;
   font-size: 3rem;
@@ -398,6 +412,7 @@ section {
     padding: 1.5rem 2rem;
   }
 
+  .sm_login,
   #menu-btn {
     display: inline-block; /*inline처럼 줄바꿈없이 한 줄에 나란히 배치됨. inline에서 불가능하던 width, height, margin, padding 속성 지정 가능.*/
     transition: 0.2s linear;
@@ -422,6 +437,18 @@ section {
 
   .login {
     display: none;
+  }
+
+  .header_mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .sm_login {
+    position: absolute;
+    right: 4rem;
   }
 }
 
