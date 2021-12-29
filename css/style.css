@@ -408,7 +408,15 @@ section {
   }
 
   .services {
-    font-size: 40%;
+    flex-direction: column;
+  }
+
+  .calender {
+    width: 40rem;
+  }
+
+  .days div {
+    width: 3.9rem;
   }
 
   .login {
