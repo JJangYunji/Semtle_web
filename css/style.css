@@ -407,7 +407,11 @@ section {
   }
 
   .services {
-    flex-direction: column;
+    font-size: 40%;
+  }
+
+  .login {
+    display: none;
   }
 }
 
