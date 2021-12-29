@@ -141,3 +141,27 @@ document.querySelector(".next").addEventListener("click", () => {
 });
 
 renderCalender();
+
+var swiper = new Swiper(".book-slider", {
+  loop: true,
+  grabCursor: true,
+  spaceBetween: 20,
+  navigation: {
+    nextE1: ".swiper-button-next",
+    prevE1: ".swiper-button-prev",
+  },
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    640: {
+      slidesPerView: 2,
+    },
+    768: {
+      slidesPerView: 3,
+    },
+    1024: {
+      slidesPerView: 4,
+    },
+  },
+});
