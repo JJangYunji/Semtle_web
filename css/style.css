@@ -323,6 +323,44 @@ section {
   color: var(--color-text);
 }
 
+.book .slide {
+  width: 35rem;
+  border: var(--border);
+}
+
+.book .slide .image {
+  position: relative;
+  overflow: hidden;
+  height: 45rem;
+  width: 100%;
+}
+
+.book .slide .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.book .slide .content {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.book .slide .content h3 {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.book .slide .content h2 {
+  font-size: 2rem;
+  color: var(--black);
+}
+
+.book .slide .content span {
+  font-size: 1.5rem;
+  color: var(--black);
+}
+
 @keyframes floating {
   0%,
   100% {
