@@ -23,7 +23,7 @@
 }
 
 * {
-  font-family: "777Balsamtint";
+  font-family: "S-CoreDream-3Light";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -276,6 +276,14 @@ section {
   border-radius: 50%;
 }
 
+.calender_header {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
 .login {
   width: 40rem;
   height: 35rem;
@@ -369,6 +377,14 @@ section {
 
 .book2 {
   padding: 0 9%;
+}
+
+.book_header {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
 }
 
 @keyframes floating {
@@ -491,6 +507,11 @@ section {
     width: 3.9rem;
   }
 
+  .calender_header {
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+  }
+
   .login {
     display: none;
   }
@@ -533,6 +554,11 @@ section {
 
   .book2 {
     padding-top: 0;
+  }
+
+  .book_header {
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
