@@ -328,7 +328,7 @@ section {
 
 .book .slide {
   width: 20rem;
-  height: 35rem;
+  height: 33rem;
 }
 
 .book .slide .image {
@@ -365,6 +365,10 @@ section {
 .book .slide .content h2 {
   font-size: 2rem;
   color: var(--black);
+}
+
+.book2 {
+  padding: 0 9%;
 }
 
 @keyframes floating {
@@ -498,6 +502,7 @@ section {
   .book .slide {
     height: 18rem;
   }
+
   .book .slide .image {
     position: relative;
     overflow: hidden;
@@ -506,8 +511,20 @@ section {
     border-radius: 2rem;
   }
 
+  .book .slide .content h3 {
+    font-size: 1.8rem;
+  }
+
   .book .slide .content_info {
     display: none;
+  }
+
+  .book {
+    padding: 2rem 9%;
+  }
+
+  .book2 {
+    padding-top: 0;
   }
 }
 
