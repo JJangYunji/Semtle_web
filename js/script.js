@@ -152,16 +152,16 @@ var swiper = new Swiper(".book-slider", {
   },
   breakpoints: {
     0: {
-      slidesPerView: 1,
+      slidesPerView: 4,
     },
     640: {
-      slidesPerView: 2,
+      slidesPerView: 4,
     },
     768: {
-      slidesPerView: 3,
+      slidesPerView: 4,
     },
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 8,
     },
   },
 });
