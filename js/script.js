@@ -146,10 +146,6 @@ var swiper = new Swiper(".book-slider", {
   loop: true,
   grabCursor: true,
   spaceBetween: 20,
-  navigation: {
-    nextE1: ".swiper-button-next",
-    prevE1: ".swiper-button-prev",
-  },
   breakpoints: {
     0: {
       slidesPerView: 4,
