@@ -432,6 +432,14 @@ section {
   html {
     font-size: 55%;
   }
+
+  .book {
+    padding: 2rem 9%;
+  }
+
+  .book2 {
+    padding-top: 0;
+  }
 }
 
 @media (max-width: 768px) {
