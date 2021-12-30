@@ -508,13 +508,13 @@ section {
   }
 
   .book .slide {
-    height: 18rem;
+    height: 15rem;
   }
 
   .book .slide .image {
     position: relative;
     overflow: hidden;
-    height: 13rem;
+    height: 11rem;
     width: 100%;
     border-radius: 2rem;
   }
