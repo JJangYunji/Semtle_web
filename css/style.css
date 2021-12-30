@@ -38,7 +38,6 @@
   --blue: #cae8e3;
   --pink: #f6e4d5;
   --yellow: #ffd080;
-  --border: 0.2rem solid var(--black);
 
   --bg-body: #f3f8fe;
   --bg-main: #fdfdfd;
@@ -179,7 +178,7 @@ section {
 
 .services {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: var(--white);
   display: flex;
   justify-content: space-between;
@@ -323,16 +322,21 @@ section {
   color: var(--color-text);
 }
 
+.book {
+  background-color: var(--blue);
+}
+
 .book .slide {
-  width: 35rem;
-  border: var(--border);
+  width: 20rem;
+  height: 35rem;
 }
 
 .book .slide .image {
   position: relative;
   overflow: hidden;
-  height: 45rem;
+  height: 25rem;
   width: 100%;
+  border-radius: 2rem;
 }
 
 .book .slide .image img {
@@ -346,6 +350,13 @@ section {
   text-align: center;
 }
 
+.book .slide .content_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
 .book .slide .content h3 {
   font-size: 2.5rem;
   color: var(--black);
@@ -353,11 +364,6 @@ section {
 
 .book .slide .content h2 {
   font-size: 2rem;
-  color: var(--black);
-}
-
-.book .slide .content span {
-  font-size: 1.5rem;
   color: var(--black);
 }
 
@@ -487,6 +493,21 @@ section {
   .sm_login {
     position: absolute;
     right: 4rem;
+  }
+
+  .book .slide {
+    height: 18rem;
+  }
+  .book .slide .image {
+    position: relative;
+    overflow: hidden;
+    height: 13rem;
+    width: 100%;
+    border-radius: 2rem;
+  }
+
+  .book .slide .content_info {
+    display: none;
   }
 }
 
