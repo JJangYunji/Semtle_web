@@ -1,29 +1,5 @@
-@font-face {
-  font-family: "777Balsamtint";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_nine_@1.1/777Balsamtint.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "S-CoreDream-3Light";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "NanumSquareRound";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
-    format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 * {
-  font-family: "S-CoreDream-3Light";
+  font-family: "Noto Sans KR", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -32,6 +8,7 @@
   text-decoration: none;
   text-transform: capitalize;
 }
+
 :root {
   --black: #000;
   --white: #fff;
@@ -54,6 +31,7 @@ html {
   overflow-x: hidden; /*overflow-x : 왼쪽,오른쪽 내용이 넘칠 때 어떻게 보여줄지. hidden : 내용이 잘림. 스크롤바가 나타나지 않음.*/
   scroll-behavior: smooth;
   scroll-padding-top: 7rem;
+  background-color: #f0f1f5;
 }
 
 ::-webkit-scrollbar {
