@@ -142,19 +142,19 @@ document.querySelector(".next").addEventListener("click", () => {
 
 renderCalender();
 
-var swiper = new Swiper(".book-slider", {
+var swiper = new Swiper(".book-box", {
   loop: true,
   grabCursor: true,
   spaceBetween: 20,
   breakpoints: {
     0: {
-      slidesPerView: 4,
+      slidesPerView: 4.6,
     },
     640: {
-      slidesPerView: 4,
+      slidesPerView: 4.6,
     },
     768: {
-      slidesPerView: 4,
+      slidesPerView: 4.6,
     },
     1024: {
       slidesPerView: 8,
